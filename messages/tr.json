@@ -1,19 +1,57 @@
 {
   "navigation": {
-    "home": "Anasayfa",
-    "about": "Hakkında",
+    "home": "Ana Sayfa",
+    "skills": "Yetenekler",
+    "experience": "Deneyim",
     "projects": "Projeler",
     "blog": "Blog",
     "contact": "İletişim"
   },
   "theme": {
-    "light": "Aydınlık",
-    "dark": "Karanlık",
+    "light": "Açık",
+    "dark": "Koyu",
     "system": "Sistem"
   },
   "common": {
     "changeLanguage": "Dili değiştir",
     "toggleTheme": "Temayı değiştir",
     "readMore": "Devamını oku"
+  },
+  "home": {
+    "greeting": "Merhaba",
+    "im": "Ben",
+    "contact": "İletişime Geç",
+    "viewProjects": "Projeleri Gör",
+    "downloadCV": "CV'yi İndir"
+  },
+  "skills": {
+    "title": "Yetenekler",
+    "subtitle": "Çalıştığım teknolojiler"
+  },
+  "experience": {
+    "title": "Deneyim",
+    "subtitle": "Profesyonel yolculuğum",
+    "present": "Günümüz",
+    "years": "yıl",
+    "year": "yıl"
+  },
+  "projects": {
+    "title": "Projeler",
+    "subtitle": "Geliştirdiğim bazı projeler",
+    "viewProject": "Projeyi Gör",
+    "viewCode": "Kodu Gör",
+    "featured": "Öne Çıkan Projeler",
+    "all": "Tüm Projeler"
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Benimle iletişime geç",
+    "name": "İsim",
+    "email": "E-posta",
+    "message": "Mesaj",
+    "send": "Mesaj Gönder",
+    "sending": "Gönderiliyor...",
+    "success": "Mesaj başarıyla gönderildi!",
+    "error": "Mesaj gönderilirken hata oluştu. Lütfen tekrar deneyin."
   }
 }

@@ -1,7 +1,8 @@
 {
   "navigation": {
-    "home": "Start",
-    "about": "Über",
+    "home": "Startseite",
+    "skills": "Fähigkeiten",
+    "experience": "Erfahrung",
     "projects": "Projekte",
     "blog": "Blog",
     "contact": "Kontakt"
@@ -13,7 +14,44 @@
   },
   "common": {
     "changeLanguage": "Sprache ändern",
-    "toggleTheme": "Designmodus wechseln",
+    "toggleTheme": "Design ändern",
     "readMore": "Weiterlesen"
+  },
+  "home": {
+    "greeting": "Hallo",
+    "im": "Ich bin",
+    "contact": "Kontaktiere mich",
+    "viewProjects": "Projekte ansehen",
+    "downloadCV": "Lebenslauf herunterladen"
+  },
+  "skills": {
+    "title": "Fähigkeiten",
+    "subtitle": "Technologien, mit denen ich arbeite"
+  },
+  "experience": {
+    "title": "Erfahrung",
+    "subtitle": "Mein beruflicher Werdegang",
+    "present": "Heute",
+    "years": "Jahre",
+    "year": "Jahr"
+  },
+  "projects": {
+    "title": "Projekte",
+    "subtitle": "Einige Dinge, die ich entwickelt habe",
+    "viewProject": "Projekt ansehen",
+    "viewCode": "Code ansehen",
+    "featured": "Ausgewählte Projekte",
+    "all": "Alle Projekte"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Kontaktiere mich",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "send": "Nachricht senden",
+    "sending": "Wird gesendet...",
+    "success": "Nachricht erfolgreich gesendet!",
+    "error": "Fehler beim Senden der Nachricht. Bitte versuche es erneut."
   }
 }

@@ -1,7 +1,8 @@
 {
   "navigation": {
     "home": "Home",
-    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
     "projects": "Projects",
     "blog": "Blog",
     "contact": "Contact"
@@ -15,5 +16,42 @@
     "changeLanguage": "Change language",
     "toggleTheme": "Toggle theme",
     "readMore": "Read more"
+  },
+  "home": {
+    "greeting": "Hello",
+    "im": "I'm",
+    "contact": "Contact Me",
+    "viewProjects": "View Projects",
+    "downloadCV": "Download CV"
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Technologies I work with"
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "My professional journey",
+    "present": "Present",
+    "years": "years",
+    "year": "year"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Some things I've built",
+    "viewProject": "View Project",
+    "viewCode": "View Code",
+    "featured": "Featured Projects",
+    "all": "All Projects"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "Error sending message. Please try again."
   }
 }
