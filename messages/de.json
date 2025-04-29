@@ -1,0 +1,19 @@
+{
+  "navigation": {
+    "home": "Start",
+    "about": "Über",
+    "projects": "Projekte",
+    "blog": "Blog",
+    "contact": "Kontakt"
+  },
+  "theme": {
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
+  },
+  "common": {
+    "changeLanguage": "Sprache ändern",
+    "toggleTheme": "Designmodus wechseln",
+    "readMore": "Weiterlesen"
+  }
+}

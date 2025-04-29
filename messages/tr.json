@@ -1,0 +1,19 @@
+{
+  "navigation": {
+    "home": "Anasayfa",
+    "about": "Hakkında",
+    "projects": "Projeler",
+    "blog": "Blog",
+    "contact": "İletişim"
+  },
+  "theme": {
+    "light": "Aydınlık",
+    "dark": "Karanlık",
+    "system": "Sistem"
+  },
+  "common": {
+    "changeLanguage": "Dili değiştir",
+    "toggleTheme": "Temayı değiştir",
+    "readMore": "Devamını oku"
+  }
+}
