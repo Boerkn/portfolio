@@ -15,10 +15,6 @@ export function ProjectsSection() {
         ? projects
         : projects.filter(project => project.featured);
 
-    const uniqueTags = Array.from(
-        new Set(projects.flatMap(project => project.tags))
-    ).sort();
-
     return (
         <section id="projects" className="py-20 bg-secondary/5">
             <div className="container px-4 mx-auto">
@@ -99,7 +95,7 @@ export function ProjectsSection() {
                     <div className="text-center mt-12">
                         <button
                             onClick={() => setShowAll(true)}
-                            className="px-6 py-3 rounded-lg bg-accent text-white font-medium hover:bg-accent/90 transition-colors"
+                            className="px-6 py-3 rounded-lg bg-accent font-medium hover:bg-accent/90 transition-colors"
                         >
                             {t('common.viewAll')}
                         </button>

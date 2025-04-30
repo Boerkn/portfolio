@@ -55,7 +55,7 @@ export function SkillsSection() {
                                             />
                                         </div>
                                         <div className="text-xs text-text/60">
-                                            {getSkillLevelText(skill.level, t)}
+                                            {getSkillLevelText(skill.level)}
                                         </div>
                                     </div>
                                 ))}
@@ -66,11 +66,11 @@ export function SkillsSection() {
             </div>
         </section>
     );
-}
 
-function getSkillLevelText(level: number, t: any) {
-    if (level === 5) return t('skills.expert');
-    if (level === 4) return t('skills.advanced');
-    if (level === 3) return t('skills.intermediate');
-    return t('skills.beginner');
+    function getSkillLevelText(level: number) {
+        if (level === 5) return t('skills.expert');
+        if (level === 4) return t('skills.advanced');
+        if (level === 3) return t('skills.intermediate');
+        return t('skills.beginner');
+    }
 }
