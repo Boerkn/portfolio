@@ -15,29 +15,29 @@ type Props = {
 
 export default async function Layout({children, params}: Props) {
     const {locale} = await params;
-    
+
     if (!hasLocale(routing.locales, locale)) {
         notFound();
     }
-    
+
     const messages = await getMessages();
 
     return (
         <html lang={locale} suppressHydrationWarning>
-            <head>
-                <title>Portfolio Berkan Öztürk</title>
-            </head>
-            <body className="bg-background text-text min-h-screen flex flex-col">
-                <NextIntlClientProvider locale={locale} messages={messages}>
-                    <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-                        <Navbar />
-                        <main className="flex-grow pt-16">
-                            {children}
-                        </main>
-                        <Footer />
-                    </ThemeProvider>
-                </NextIntlClientProvider>
-            </body>
+        <head>
+            <title>Portfolio Berkan Öztürk</title>
+        </head>
+        <body className="bg-background text-text min-h-screen flex flex-col">
+        <NextIntlClientProvider locale={locale} messages={messages}>
+            <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+                <Navbar/>
+                <main className="flex-grow pt-16">
+                    {children}
+                </main>
+                <Footer/>
+            </ThemeProvider>
+        </NextIntlClientProvider>
+        </body>
         </html>
     );
 }

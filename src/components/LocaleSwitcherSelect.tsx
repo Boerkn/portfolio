@@ -48,8 +48,9 @@ export default function LocaleSwitcherSelect({
                 {children}
             </select>
             <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-text">
-                <svg className="h-4 w-4" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
-                    <path d="M19 9l-7 7-7-7" />
+                <svg className="h-4 w-4" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                     viewBox="0 0 24 24" stroke="currentColor">
+                    <path d="M19 9l-7 7-7-7"/>
                 </svg>
             </div>
         </div>
