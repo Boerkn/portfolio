@@ -1,6 +1,6 @@
 {
   "navigation": {
-    "home": "Startseite",
+    "home": "Start",
     "skills": "Fähigkeiten",
     "experience": "Erfahrung",
     "projects": "Projekte",
@@ -15,43 +15,61 @@
   "common": {
     "changeLanguage": "Sprache ändern",
     "toggleTheme": "Design ändern",
-    "readMore": "Weiterlesen"
+    "readMore": "Weiterlesen",
+    "present": "Heute",
+    "viewAll": "Alle anzeigen",
+    "allRightsReserved": "Alle Rechte vorbehalten"
   },
   "home": {
     "greeting": "Hallo",
-    "im": "Ich bin",
+    "im": "ich bin",
+    "role": "Senior Software Entwickler",
     "contact": "Kontaktiere mich",
     "viewProjects": "Projekte ansehen",
-    "downloadCV": "Lebenslauf herunterladen"
+    "downloadCV": "Lebenslauf herunterladen",
+    "yearsOfExperience": "Jahre Erfahrung",
+    "completedProjects": "Abgeschlossene Projekte",
+    "technologiesMastered": "Technologien"
   },
   "skills": {
     "title": "Fähigkeiten",
-    "subtitle": "Technologien, mit denen ich arbeite"
+    "subtitle": "Technologien und Tools mit denen ich arbeite",
+    "yearsExp": "Jahre",
+    "yearExp": "Jahr",
+    "expertiseLevel": "Erfahrungsstufe",
+    "beginner": "Anfänger",
+    "intermediate": "Fortgeschritten",
+    "advanced": "Erfahren",
+    "expert": "Experte"
   },
   "experience": {
     "title": "Erfahrung",
     "subtitle": "Mein beruflicher Werdegang",
     "present": "Heute",
     "years": "Jahre",
-    "year": "Jahr"
+    "year": "Jahr",
+    "technologies": "Verwendete Technologien"
   },
   "projects": {
     "title": "Projekte",
-    "subtitle": "Einige Dinge, die ich entwickelt habe",
+    "subtitle": "Einige Projekte, an denen ich gearbeitet habe",
     "viewProject": "Projekt ansehen",
     "viewCode": "Code ansehen",
     "featured": "Ausgewählte Projekte",
-    "all": "Alle Projekte"
+    "all": "Alle Projekte",
+    "techStack": "Tech Stack"
   },
   "contact": {
     "title": "Kontakt",
-    "subtitle": "Kontaktiere mich",
+    "subtitle": "Lass uns in Kontakt treten",
     "name": "Name",
     "email": "E-Mail",
     "message": "Nachricht",
     "send": "Nachricht senden",
     "sending": "Wird gesendet...",
     "success": "Nachricht erfolgreich gesendet!",
-    "error": "Fehler beim Senden der Nachricht. Bitte versuche es erneut."
+    "error": "Fehler beim Senden der Nachricht. Bitte versuche es erneut.",
+    "required": "Pflichtfeld",
+    "or": "Oder kontaktiere mich über soziale Medien"
   }
 }

@@ -15,33 +15,49 @@
   "common": {
     "changeLanguage": "Dili değiştir",
     "toggleTheme": "Temayı değiştir",
-    "readMore": "Devamını oku"
+    "readMore": "Devamını oku",
+    "present": "Günümüz",
+    "viewAll": "Tümünü Gör",
+    "allRightsReserved": "Tüm hakları saklıdır"
   },
   "home": {
     "greeting": "Merhaba",
     "im": "Ben",
+    "role": "Kıdemli Yazılım Mühendisi",
     "contact": "İletişime Geç",
     "viewProjects": "Projeleri Gör",
-    "downloadCV": "CV'yi İndir"
+    "downloadCV": "CV İndir",
+    "yearsOfExperience": "Yıllık Deneyim",
+    "completedProjects": "Tamamlanan Projeler",
+    "technologiesMastered": "Teknolojiler"
   },
   "skills": {
     "title": "Yetenekler",
-    "subtitle": "Çalıştığım teknolojiler"
+    "subtitle": "Çalıştığım teknolojiler ve araçlar",
+    "yearsExp": "yıl",
+    "yearExp": "yıl",
+    "expertiseLevel": "Uzmanlık Seviyesi",
+    "beginner": "Başlangıç",
+    "intermediate": "Orta",
+    "advanced": "İleri",
+    "expert": "Uzman"
   },
   "experience": {
     "title": "Deneyim",
     "subtitle": "Profesyonel yolculuğum",
     "present": "Günümüz",
     "years": "yıl",
-    "year": "yıl"
+    "year": "yıl",
+    "technologies": "Kullanılan teknolojiler"
   },
   "projects": {
     "title": "Projeler",
-    "subtitle": "Geliştirdiğim bazı projeler",
+    "subtitle": "Üzerinde çalıştığım bazı projeler",
     "viewProject": "Projeyi Gör",
     "viewCode": "Kodu Gör",
     "featured": "Öne Çıkan Projeler",
-    "all": "Tüm Projeler"
+    "all": "Tüm Projeler",
+    "techStack": "Teknoloji Yığını"
   },
   "contact": {
     "title": "İletişim",
@@ -51,7 +67,9 @@
     "message": "Mesaj",
     "send": "Mesaj Gönder",
     "sending": "Gönderiliyor...",
-    "success": "Mesaj başarıyla gönderildi!",
-    "error": "Mesaj gönderilirken hata oluştu. Lütfen tekrar deneyin."
+    "success": "Mesajınız başarıyla gönderildi!",
+    "error": "Mesaj gönderilirken hata oluştu. Lütfen tekrar deneyin.",
+    "required": "Zorunlu alan",
+    "or": "Ya da sosyal medya üzerinden ulaşabilirsin"
   }
 }
