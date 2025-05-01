@@ -9,8 +9,8 @@ export const profile = {
     phone: '+49 1609 1561549',
     languages: ['Deutsch (Muttersprache)', 'Türkisch (Muttersprache)', 'Englisch (verhandlungssicher)'],
     socialLinks: {
-        github: 'https://github.com/ozberkantkaya',
-        linkedin: 'https://linkedin.com/in/ozberkantkaya',
-        xing: 'https://www.xing.com/profile/ozberkantkaya'
+        mail: 'mailto:berkan.oeztuerk@outlook.com',
+        linkedin: 'https://de.linkedin.com/in/berkan-%C3%B6zt%C3%BCrk-8233bb196',
+        xing: 'https://www.xing.com/profile/Berkan_Oeztuerk6'
     }
 }
