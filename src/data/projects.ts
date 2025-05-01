@@ -1,72 +1,77 @@
-interface Project {
+export interface Project {
     id: string;
     title: string;
     description: string;
     image: string;
     tags: string[];
-    github?: string;
-    demo?: string;
     featured: boolean;
+    demo?: string;
+    github?: string;
 }
 
 export const projects: Project[] = [
     {
-        id: 'portfolio',
-        title: 'Portfolio Website',
-        description: 'A modern, responsive portfolio website built with Next.js 13, TypeScript, and TailwindCSS. Features internationalization and dark mode support.',
-        image: '/images/projects/portfolio.jpg',
-        tags: ['Next.js', 'TypeScript', 'TailwindCSS', 'Framer Motion'],
-        github: 'https://github.com/ozberkantkaya/portfolio',
-        demo: 'https://berkanoeztuerk.dev',
+        id: 'iga',
+        title: 'Identity Governance & Administration (IGA)',
+        description: 'Entwicklung eines Berechtigungsmanagementsystems mit integrierten API-Schnittstellen und spezialisierten Adaptern.',
+        image: '/iga.png',
+        tags: ['Midpoint', 'Java', 'Spring Boot', 'Docker', 'Keycloak'],
         featured: true
     },
     {
-        id: 'e-commerce',
-        title: 'E-commerce Platform',
-        description: 'A full-featured e-commerce platform with microservices architecture, featuring real-time inventory, payment processing, and admin dashboard.',
-        image: '/images/projects/ecommerce.jpg',
-        tags: ['NestJS', 'React', 'PostgreSQL', 'Redis', 'Docker'],
-        github: 'https://github.com/ozberkantkaya/ecommerce',
-        demo: 'https://demo-ecommerce.berkanoeztuerk.dev',
+        id: 'dpa-import',
+        title: 'Nachrichtenimport für dpa',
+        description: 'Entwicklung eines Systems zur Verarbeitung von dpa-Nachrichtendaten mit komplexer businesslogikgesteuerter Verarbeitung.',
+        image: '/dpa-import.png',
+        tags: ['Java', 'Spring Boot', 'MongoDB', 'AWS Lambda', 'Prometheus'],
         featured: true
     },
     {
-        id: 'task-manager',
-        title: 'Task Manager',
-        description: 'A collaborative task management application with real-time updates, file sharing, and team chat functionality.',
-        image: '/images/projects/taskmanager.jpg',
-        tags: ['React', 'Node.js', 'MongoDB', 'Socket.io'],
-        github: 'https://github.com/ozberkantkaya/task-manager',
-        demo: 'https://tasks.berkanoeztuerk.dev',
+        id: 'news-processing',
+        title: 'Nachrichtendatenverarbeitung',
+        description: 'System für Import, Export und Verarbeitung von Nachrichtendaten mit komplexer Businesslogik.',
+        image: '/news-web-media-hero.png',
+        tags: ['Java', 'MySQL', 'MongoDB', 'Docker'],
         featured: true
     },
     {
-        id: 'weather-app',
-        title: 'Weather Dashboard',
-        description: 'A weather forecasting application with location detection, historical data visualization, and severe weather alerts.',
-        image: '/images/projects/weather.jpg',
-        tags: ['React', 'TypeScript', 'D3.js', 'OpenWeather API'],
-        github: 'https://github.com/ozberkantkaya/weather-app',
-        demo: 'https://weather.berkanoeztuerk.dev',
+        id: 'autocad-modeling',
+        title: 'AutoCAD-Modellierung im CABD-Workflow',
+        description: 'Entwicklung einer UI für die CAD-Modellierung im CABD-Workflow mit fortschrittlichen 3D-Visualisierungsfunktionen.',
+        image: '/cabd_workflow.png',
+        tags: ['C++', 'Qt', 'OpenGL'],
         featured: false
     },
     {
-        id: 'chat-app',
-        title: 'Real-time Chat Application',
-        description: 'A real-time chat application supporting multiple rooms, file sharing, and message history.',
-        image: '/images/projects/chat.jpg',
-        tags: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
-        github: 'https://github.com/ozberkantkaya/chat-app',
+        id: 'distributor',
+        title: 'Verteilerlinie im CABD-Workflow',
+        description: 'Entwicklung und Implementierung eines Moduls zur Erstellung von Pfadgeometrien und Verteilerlinien im Computer Aided Bridge Design (CABD). Das Projekt umfasste komplexe Geometrieberechnungen, parametrisierte Pfaderstellung und nahtlose Integration in die SOFiSTiK-Umgebung für Brücken- und Tragwerksplanung.',
+        image: '/make_path_system.png',
+        tags: ['C++', 'Qt', 'ObjectARX'],
+        featured: true
+    },
+    {
+        id: 'automated-testing',
+        title: 'Automated GUI Testing',
+        description: 'Entwicklung einer automatisierten Test-Suite für GUI-Anwendungen mit Integration in CI/CD-Pipelines.',
+        image: '/Squish-interface-simplified-01.webp',
+        tags: ['Python', 'JavaScript', 'Squish', 'Bamboo CI'],
         featured: false
     },
     {
-        id: 'blog-platform',
-        title: 'Blog Platform',
-        description: 'A modern blogging platform with markdown support, image optimization, and SEO features.',
-        image: '/images/projects/blog.jpg',
-        tags: ['Next.js', 'MDX', 'TailwindCSS', 'Prisma'],
-        github: 'https://github.com/ozberkantkaya/blog-platform',
-        demo: 'https://blog.berkanoeztuerk.dev',
+        id: 'cicd-web',
+        title: 'CI/CD für Web Komponenten',
+        description: 'Entwicklung einer CI/CD-Pipeline für Web-Komponenten mit automatisierten Tests und Build-Prozessen.',
+        image: '/ci-cd.jpg',
+        tags: ['JavaScript/TypeScript', 'Babel', 'Webpack', 'Docker', 'GitLab'],
         featured: false
+    },
+    {
+        id: 'bakkal-usta',
+        title: 'Plattform-App "Bakkal-Usta"',
+        description: 'Entwicklung einer mobilen Plattform-App mit Fokus auf benutzerfreundlichem Design und nahtloser Backend-Integration.',
+        image: '/bakkal-usta.png',
+        tags: ['React Native', 'Expo', 'Firebase', 'Spring Boot'],
+        featured: true
     }
-];
+]

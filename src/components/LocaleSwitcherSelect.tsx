@@ -7,13 +7,11 @@ import {usePathname, useRouter} from '@/i18n/navigation';
 
 type Props = {
     children: ReactNode;
-    defaultValue: string;
     value: string;
 };
 
 export default function LocaleSwitcherSelect({
                                                  children,
-                                                 defaultValue,
                                                  value
                                              }: Props) {
     const router = useRouter();
@@ -38,7 +36,6 @@ export default function LocaleSwitcherSelect({
     return (
         <div className="relative">
             <select
-                defaultValue={defaultValue}
                 value={value}
                 disabled={isPending}
                 onChange={onSelectChange}

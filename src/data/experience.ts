@@ -10,41 +10,55 @@ interface Experience {
 
 export const experience: Experience[] = [
     {
-        company: 'Current Company',
+        company: 'Mediengruppe Münchner Merkur tz',
         role: 'Senior Software Engineer',
-        location: 'Düsseldorf, Germany',
-        startDate: '2022-03',
+        location: 'München, Deutschland',
+        startDate: '2023-01',
         achievements: [
-            'Led the development of a microservices-based e-commerce platform using Next.js and NestJS',
-            'Improved application performance by 40% through code optimization and caching strategies',
-            'Mentored junior developers and conducted technical interviews'
+            'Fullstack-Softwareentwicklung',
+            'Software- und Systemarchitektur',
+            'API- und Microservice-Design',
+            'Technisches Projektmanagement'
         ],
-        technologies: ['TypeScript', 'React', 'Next.js', 'NestJS', 'PostgreSQL', 'AWS']
+        technologies: ['Java', 'Spring Boot', 'React', 'MongoDB', 'AWS', 'Docker']
     },
     {
-        company: 'Previous Company',
-        role: 'Full Stack Developer',
-        location: 'Berlin, Germany',
+        company: 'Mediengruppe Münchner Merkur tz',
+        role: 'Software Engineer',
+        location: 'München, Deutschland',
         startDate: '2020-01',
-        endDate: '2022-02',
+        endDate: '2022-12',
         achievements: [
-            'Developed and maintained multiple client projects using React and Node.js',
-            'Implemented CI/CD pipelines reducing deployment time by 50%',
-            'Collaborated with UX team to improve user experience and accessibility'
+            'Fullstack-Entwicklung',
+            'Software Engineering',
+            'Kundensupport'
         ],
-        technologies: ['React', 'Node.js', 'MongoDB', 'Docker', 'GraphQL']
+        technologies: ['Java', 'Spring Boot', 'React', 'MySQL', 'Docker']
     },
     {
-        company: 'First Company',
-        role: 'Frontend Developer',
-        location: 'Istanbul, Turkey',
-        startDate: '2018-06',
+        company: 'SOFiSTiK AG',
+        role: 'Software Engineer',
+        location: 'München, Deutschland',
+        startDate: '2018-01',
         endDate: '2019-12',
         achievements: [
-            'Built responsive web applications using React and Redux',
-            'Reduced bundle size by 35% through code splitting and lazy loading',
-            'Participated in daily stand-ups and sprint planning meetings'
+            'Windows-/Linux-Entwicklung',
+            'Technisches Projektmanagement',
+            'Aufwandsschätzung & Kundensupport'
         ],
-        technologies: ['JavaScript', 'React', 'Redux', 'HTML', 'CSS', 'Git']
+        technologies: ['C++', 'Qt', 'OpenGL', 'Python']
+    },
+    {
+        company: 'SOFiSTiK AG',
+        role: 'Junior Software Engineer',
+        location: 'München, Deutschland',
+        startDate: '2016-01',
+        endDate: '2017-12',
+        achievements: [
+            'Datenbank- und GUI-Entwicklung',
+            'Grundlagen Software Engineering',
+            'IT-Management'
+        ],
+        technologies: ['C++', 'Qt', 'SQL', 'SVN']
     }
 ];

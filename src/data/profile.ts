@@ -1,11 +1,13 @@
 export const profile = {
     name: 'Berkan Öztürk',
     role: 'Senior Software Engineer',
-    bio: 'Full-stack developer specializing in TypeScript, React, and Node.js with a passion for building scalable web applications.',
-    avatarUrl: '/images/profile.jpg',
+    bio: 'Software Engineer mit zehn Jahren Erfahrung in der Entwicklung moderner und innovativer Softwarelösungen. Fundierte Kenntnisse in Java, C++, TypeScript/JavaScript, sowie Erfahrung mit Cloud-Plattformen (AWS, Firebase) und Frameworks (Spring, Expo, Next.js).',
+    avatarUrl: '/profile.jpg',
     resumeUrl: '/BerkanOzturk_CV.pdf',
-    location: 'Düsseldorf, Germany',
-    email: 'berkan@berkanoeztuerk.dev',
+    location: '85221 Dachau, Germany',
+    email: 'berkan.oeztuerk@outlook.com',
+    phone: '+49 1609 1561549',
+    languages: ['Deutsch (Muttersprache)', 'Türkisch (Muttersprache)', 'Englisch (verhandlungssicher)'],
     socialLinks: {
         github: 'https://github.com/ozberkantkaya',
         linkedin: 'https://linkedin.com/in/ozberkantkaya',

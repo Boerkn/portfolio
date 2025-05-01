@@ -1,6 +1,6 @@
 interface Skill {
     name: string;
-    level: number; // 1-5
+    level: number;
     yearsOfExperience: number;
 }
 
@@ -11,42 +11,41 @@ interface SkillCategory {
 
 export const skills: SkillCategory[] = [
     {
-        name: 'Frontend',
+        name: 'Programmiersprachen',
         skills: [
-            {name: 'TypeScript', level: 5, yearsOfExperience: 5},
-            {name: 'React', level: 5, yearsOfExperience: 5},
+            {name: 'Java', level: 5, yearsOfExperience: 10},
+            {name: 'JavaScript/TypeScript', level: 5, yearsOfExperience: 8},
+            {name: 'Python', level: 4, yearsOfExperience: 5},
+            {name: 'C++', level: 4, yearsOfExperience: 6},
+            {name: '.NET', level: 3, yearsOfExperience: 3},
+            {name: 'PHP', level: 3, yearsOfExperience: 4}
+        ]
+    },
+    {
+        name: 'Frameworks & Tools',
+        skills: [
+            {name: 'Spring Boot', level: 5, yearsOfExperience: 7},
+            {name: 'React', level: 4, yearsOfExperience: 5},
             {name: 'Next.js', level: 4, yearsOfExperience: 3},
-            {name: 'TailwindCSS', level: 4, yearsOfExperience: 3},
-            {name: 'HTML/CSS', level: 5, yearsOfExperience: 7}
+            {name: 'Docker', level: 4, yearsOfExperience: 5},
+            {name: 'React Native', level: 3, yearsOfExperience: 2}
         ]
     },
     {
-        name: 'Backend',
+        name: 'Datenbanken',
         skills: [
-            {name: 'Node.js', level: 5, yearsOfExperience: 5},
-            {name: 'Express', level: 4, yearsOfExperience: 4},
-            {name: 'NestJS', level: 4, yearsOfExperience: 2},
-            {name: 'GraphQL', level: 4, yearsOfExperience: 3},
-            {name: 'REST APIs', level: 5, yearsOfExperience: 5}
+            {name: 'MySQL/MariaDB', level: 5, yearsOfExperience: 10},
+            {name: 'MongoDB', level: 4, yearsOfExperience: 5},
+            {name: 'SQL', level: 5, yearsOfExperience: 10}
         ]
     },
     {
-        name: 'Database',
+        name: 'Cloud & DevOps',
         skills: [
-            {name: 'PostgreSQL', level: 4, yearsOfExperience: 4},
-            {name: 'MongoDB', level: 4, yearsOfExperience: 3},
-            {name: 'Redis', level: 3, yearsOfExperience: 2},
-            {name: 'Prisma', level: 4, yearsOfExperience: 2}
-        ]
-    },
-    {
-        name: 'DevOps & Tools',
-        skills: [
-            {name: 'Git', level: 5, yearsOfExperience: 7},
-            {name: 'Docker', level: 4, yearsOfExperience: 3},
-            {name: 'AWS', level: 3, yearsOfExperience: 2},
-            {name: 'CI/CD', level: 4, yearsOfExperience: 4},
-            {name: 'Linux', level: 4, yearsOfExperience: 5}
+            {name: 'AWS', level: 4, yearsOfExperience: 4},
+            {name: 'Firebase', level: 3, yearsOfExperience: 3},
+            {name: 'CI/CD', level: 4, yearsOfExperience: 5},
+            {name: 'GitLab CI', level: 4, yearsOfExperience: 4}
         ]
     }
-];
+]
