@@ -36,7 +36,7 @@ export function Navbar() {
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center">
                         <Link href={`/`} className="text-2xl font-bold text-accent">
-                            Portfolio
+                            Berkan Öztürk
                         </Link>
                         <div className="hidden md:block ml-10">
                             <div className="flex items-center space-x-4">

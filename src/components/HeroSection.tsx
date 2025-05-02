@@ -3,7 +3,6 @@
 import {useTranslations} from 'next-intl';
 import {profile} from '@/data/profile';
 import Image from 'next/image';
-import {Link} from '@/i18n/navigation';
 import {motion} from 'framer-motion';
 
 export function HeroSection() {
@@ -28,15 +27,15 @@ export function HeroSection() {
                             {profile.bio}
                         </p>
                         <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
-                            <Link
+                            <a
                                 href="#projects"
-                                className="px-6 py-3 rounded-lg bg-accent font-medium hover:bg-accent/90 transition-colors"
+                                className="px-6 py-3 border-2 rounded-lg text-sm text-text/60 hover:text-accent transition-colors"
                             >
                                 {t('home.viewProjects')}
-                            </Link>
+                            </a>
                             <a
                                 href={profile.resumeUrl}
-                                className="px-6 py-3 rounded-lg border-2 border-accent text-accent font-medium hover:bg-accent transition-colors"
+                                className="px-6 py-3 border-2 rounded-lg text-sm text-text/60 hover:text-accent transition-colors"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >

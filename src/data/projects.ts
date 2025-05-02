@@ -64,7 +64,7 @@ export const projects: Project[] = [
         description: 'Entwicklung einer CI/CD-Pipeline für Web-Komponenten mit automatisierten Tests und Build-Prozessen.',
         image: '/ci-cd.jpg',
         tags: ['JavaScript/TypeScript', 'Babel', 'Webpack', 'Docker', 'GitLab'],
-        featured: false
+        featured: true
     },
     {
         id: 'bakkal-usta',
