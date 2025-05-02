@@ -35,7 +35,7 @@ export function ProjectsSection() {
                             <AnimateOnScroll key={project.id} delay={index * 0.1}>
                                 <motion.div
                                     layout
-                                    className="bg-background rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
+                                    className="bg-primary/5 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
                                 >
                                     <div className="relative h-48">
                                         <Image

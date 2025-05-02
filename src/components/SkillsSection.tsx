@@ -33,7 +33,7 @@ export function SkillsSection() {
                             whileInView={{opacity: 1, y: 0}}
                             transition={{duration: 0.5, delay: index * 0.1}}
                             viewport={{once: true}}
-                            className="bg-background rounded-xl p-6 shadow-lg"
+                            className="bg-primary/5 rounded-xl p-6 shadow-lg"
                         >
                             <h3 className="text-xl font-semibold mb-4">{category.name}</h3>
                             <div className="space-y-4">

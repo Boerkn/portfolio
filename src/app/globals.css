@@ -1,3 +1,101 @@
 @import "tailwindcss";
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
+/* Konfiguration der Farbthemen */
+@theme {
+    /* Hauptfarbpalette - Sanft und gedämpft */
+    --color-primary: #6b7280; /* Dezentes Grau mit Blauton */
+    --color-primary-light: #9ca3af; /* Helleres Grau */
+    --color-primary-dark: #4b5563; /* Dunkleres Grau */
+
+    --color-secondary: #9f7aea; /* Sanftes Lavendel */
+    --color-secondary-light: #c4b5fd; /* Helleres Lavendel */
+    --color-secondary-dark: #7c3aed; /* Dunkleres Lila */
+
+    /* Akzentfarbe für Highlights */
+    --color-accent: #818cf8; /* Sanftes Indigo */
+    --color-accent-light: #a5b4fc; /* Helleres Indigo */
+    --color-accent-dark: #6366f1; /* Dunkleres Indigo */
+
+    /* Hintergrundfarben - Sehr sanfte, neutrale Töne */
+    --color-bg-primary: #f9fafb; /* Cremiges Weiß */
+    --color-bg-secondary: #f3f4f6; /* Sanftes Grau */
+    --color-bg-tertiary: #e5e7eb; /* Leicht dunkleres Grau */
+
+    /* Textfarben - Sanft und lesbar */
+    --color-text-primary: #374151; /* Gedämpftes Anthrazit */
+    --color-text-secondary: #6b7280; /* Mittleres Grau */
+    --color-text-muted: #9ca3af; /* Helles Grau */
+
+    /* Randfarben */
+    --color-border-default: #e5e7eb; /* Wie bg-tertiary */
+    --color-border-focus: #9f7aea; /* Sekundärfarbe */
+    --color-border-accent: #818cf8; /* Akzentfarbe */
+
+    /* Schatten mit subtilen Farbtönen */
+    --shadow-sm: 0 1px 2px 0 rgba(55, 65, 81, 0.05);
+    --shadow-default: 0 1px 3px 0 rgba(55, 65, 81, 0.07), 0 1px 2px -1px rgba(55, 65, 81, 0.07);
+    --shadow-md: 0 4px 6px -1px rgba(55, 65, 81, 0.07), 0 2px 4px -2px rgba(55, 65, 81, 0.07);
+    --shadow-lg: 0 10px 15px -3px rgba(55, 65, 81, 0.07), 0 4px 6px -4px rgba(55, 65, 81, 0.07);
+    --shadow-glow: 0 0 15px rgba(107, 114, 128, 0.08);
+}
+
+/* Basis-Stile */
+@layer base {
+    body {
+        background-color: var(--color-bg-primary);
+        color: var(--color-text-primary);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: var(--color-text-primary);
+        font-weight: 600;
+    }
+
+    a {
+        color: var(--color-primary);
+        transition: color 0.2s ease, text-decoration 0.2s ease;
+        &:hover {
+            color: var(--color-primary-dark);
+            text-decoration-color: var(--color-accent);
+        }
+    }
+
+    [data-mode="dark"] {
+        /* Hauptfarbpalette im Dark Mode - Gedeckte, angenehme Farben */
+        --color-primary: #818cf8; /* Sanftes Indigo */
+        --color-primary-light: #a5b4fc; /* Helleres Indigo */
+        --color-primary-dark: #6366f1; /* Dunkleres Indigo */
+
+        --color-secondary: #a78bfa; /* Sanftes Violett */
+        --color-secondary-light: #c4b5fd; /* Helleres Violett */
+        --color-secondary-dark: #8b5cf6; /* Dunkleres Violett */
+
+        /* Akzentfarbe für Highlights im Dark Mode */
+        --color-accent: #93c5fd; /* Sanftes Himmelblau */
+        --color-accent-light: #bfdbfe; /* Helleres Himmelblau */
+        --color-accent-dark: #60a5fa; /* Dunkleres Himmelblau */
+
+        /* Hintergrundfarben im Dark Mode - Warm und nicht zu dunkel */
+        --color-bg-primary: #1f2937; /* Warmes Dunkelgrau */
+        --color-bg-secondary: #374151; /* Mittleres Grau */
+        --color-bg-tertiary: #4b5563; /* Helleres Grau */
+
+        /* Textfarben im Dark Mode - Angenehmer Kontrast */
+        --color-text-primary: #f3f4f6; /* Helles Grau */
+        --color-text-secondary: #d1d5db; /* Mittelhelles Grau */
+        --color-text-muted: #9ca3af; /* Gedämpftes Grau */
+
+        /* Randfarben im Dark Mode */
+        --color-border-default: #4b5563; /* Wie bg-tertiary */
+        --color-border-focus: #a78bfa; /* Sekundärfarbe */
+        --color-border-accent: #93c5fd; /* Akzentfarbe */
+
+        /* Schatten im Dark Mode mit subtilen Farbtönen */
+        --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+        --shadow-default: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 2px -1px rgba(0, 0, 0, 0.2);
+        --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -2px rgba(0, 0, 0, 0.2);
+        --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -4px rgba(0, 0, 0, 0.2);
+        --shadow-glow: 0 0 15px rgba(129, 140, 248, 0.1);
+    }
+}

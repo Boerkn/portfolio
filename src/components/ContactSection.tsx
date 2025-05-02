@@ -38,7 +38,7 @@ export function ContactSection() {
                                         id="name"
                                         name="name"
                                         required
-                                        className="w-full px-4 py-2 rounded-lg bg-background border border-secondary/20 focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-colors"
+                                        className="w-full px-4 py-2 rounded-lg border border-secondary/20 focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-colors"
                                     />
                                 </div>
 
@@ -51,7 +51,7 @@ export function ContactSection() {
                                         id="email"
                                         name="email"
                                         required
-                                        className="w-full px-4 py-2 rounded-lg bg-background border border-secondary/20 focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-colors"
+                                        className="w-full px-4 py-2 rounded-lg border border-secondary/20 focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-colors"
                                     />
                                 </div>
 
@@ -64,7 +64,7 @@ export function ContactSection() {
                                         name="body"
                                         rows={5}
                                         required
-                                        className="w-full px-4 py-2 rounded-lg bg-background border border-secondary/20 focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-colors"
+                                        className="w-full px-4 py-2 rounded-lg border border-secondary/20 focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-colors"
                                     ></textarea>
                                 </div>
 
