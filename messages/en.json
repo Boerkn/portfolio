@@ -23,21 +23,21 @@
   "home": {
     "greeting": "Hi",
     "im": "I'm",
-    "role": "Senior Software Engineer",
+    "role": "Senior Fullstack Engineer",
     "contact": "Contact Me",
     "viewProjects": "View Projects",
     "downloadCV": "Download CV",
     "yearsOfExperience": "Years of Experience",
     "completedProjects": "Completed Projects",
     "technologiesMastered": "Technologies",
-    "bio": "Software Engineer with ten years of experience in developing modern and innovative software solutions. Strong knowledge in Java, C++, TypeScript/JavaScript, as well as experience with cloud platforms (AWS, Firebase) and frameworks (Spring, Expo, Next.js)."
+    "bio": "Seasoned Software Engineer with over a decade of expertise in designing and implementing scalable software solutions. Comprehensive knowledge in Java, C++, TypeScript/JavaScript, along with substantial experience with cloud technologies (AWS, Firebase) and modern frameworks (Spring Boot, React, Next.js)."
   },
   "skills": {
     "title": "Skills",
-    "subtitle": "Technologies and tools I work with",
+    "subtitle": "Technologies and tools in my professional stack",
     "yearsExp": "years",
     "yearExp": "year",
-    "expertiseLevel": "Expertise Level",
+    "expertiseLevel": "Proficiency Level",
     "beginner": "Beginner",
     "intermediate": "Intermediate",
     "advanced": "Advanced",
@@ -45,7 +45,7 @@
   },
   "experience": {
     "title": "Experience",
-    "subtitle": "My professional journey",
+    "subtitle": "My professional career trajectory",
     "present": "Present",
     "years": "years",
     "year": "year",
@@ -54,22 +54,22 @@
       "muc": "Munich, Germany"
     },
     "achievements": {
-      "api-design": "API and Microservice Design",
-      "technical-projectmanagement": "Technical Project Management",
-      "customer-support": "Customer Support",
-      "se": "Software Engineering",
-      "se-system-architecture": "Software and System Architecture",
-      "fullstack-dev": "Fullstack Development",
-      "win-linux-dev": "Windows/Linux Development",
-      "db-dev": "Database Development",
-      "gui-dev": "GUI Development",
-      "it-management": "IT Management",
-      "effort-estimate": "Effort Estimation"
+      "api-design": "Design and development of RESTful APIs and microservices",
+      "technical-projectmanagement": "Technical leadership and agile project management",
+      "customer-support": "Technical customer support and stakeholder management",
+      "se": "Application of software engineering best practices",
+      "se-system-architecture": "Design and implementation of system architectures",
+      "fullstack-dev": "End-to-end application development (frontend & backend)",
+      "win-linux-dev": "Cross-platform software development (Windows/Linux)",
+      "db-dev": "Database design and performance optimization",
+      "gui-dev": "Responsive UI/UX design and frontend implementation",
+      "it-management": "IT process optimization and resource management",
+      "effort-estimate": "Precise effort estimation and project planning"
     }
   },
   "projects": {
     "title": "Projects",
-    "subtitle": "Some of the projects I've worked on",
+    "subtitle": "Selected project examples from my portfolio",
     "viewProject": "View Project",
     "viewCode": "View Code",
     "featured": "Featured Projects",
@@ -77,15 +77,15 @@
     "techStack": "Tech Stack",
     "iga": {
       "title": "Identity Governance & Administration (IGA)",
-      "description": "Development of an authorization management system with integrated API interfaces and specialized adapters."
+      "description": "Designed and implemented an advanced authorization management system with RESTful API interfaces and specialized adapters for various identity sources."
     },
     "dpa-import": {
       "title": "News Import for dpa",
-      "description": "Development of a system for processing dpa news data with complex business logic-driven processing."
+      "description": "Implementation of a high-performance system for processing and enriching dpa news data with event-driven architecture and complex business logic."
     },
     "news-processing": {
       "title": "News Data Processing",
-      "description": "System for importing, exporting, and processing news data with complex business logic."
+      "description": "Development of a scalable pipeline for importing, transforming, and distributing news data with robust error handling and flexible integration interfaces."
     },
     "autocad-modeling": {
       "title": "AutoCAD Modeling in CABD Workflow",
@@ -97,11 +97,11 @@
     },
     "automated-testing": {
       "title": "Automated GUI Testing",
-      "description": "Development of an automated test suite for GUI applications with integration into CI/CD pipelines."
+      "description": "Development of a comprehensive automated test suite for GUI applications with seamless integration into CI/CD pipelines and detailed test reporting."
     },
     "cicd-web": {
       "title": "CI/CD for Web Components",
-      "description": "Development of a CI/CD pipeline for web components with automated tests and build processes."
+      "description": "Implementation of an efficient CI/CD pipeline for web components with automated tests, static code analysis, and optimized build processes."
     },
     "bakkal-usta": {
       "title": "Platform App \"Bakkal-Usta\"",
@@ -110,7 +110,7 @@
   },
   "contact": {
     "title": "Contact",
-    "subtitle": "Let's get in touch",
+    "subtitle": "Let's discuss professional collaboration",
     "name": "Name",
     "email": "Email",
     "message": "Message",

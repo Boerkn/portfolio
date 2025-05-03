@@ -23,21 +23,21 @@
   "home": {
     "greeting": "Hallo",
     "im": "ich bin",
-    "role": "Senior Software Entwickler",
+    "role": "Senior Fullstack Entwickler",
     "contact": "Kontaktiere mich",
     "viewProjects": "Projekte ansehen",
     "downloadCV": "Lebenslauf herunterladen",
     "yearsOfExperience": "Jahre Erfahrung",
     "completedProjects": "Abgeschlossene Projekte",
     "technologiesMastered": "Technologien",
-    "bio": "Software Engineer mit zehn Jahren Erfahrung in der Entwicklung moderner und innovativer Softwarelösungen. Fundierte Kenntnisse in Java, C++, TypeScript/JavaScript, sowie Erfahrung mit Cloud-Plattformen (AWS, Firebase) und Frameworks (Spring, Expo, Next.js)."
+    "bio": "Erfahrener Software Engineer mit über einem Jahrzehnt Expertise in der Konzeption und Implementierung skalierbarer Softwarelösungen. Umfassende Kenntnisse in Java, C++, TypeScript/JavaScript sowie fundierte Erfahrung mit Cloud-Technologien (AWS, Firebase) und modernen Frameworks (Spring Boot, React, Next.js)."
   },
   "skills": {
     "title": "Fähigkeiten",
-    "subtitle": "Technologien und Tools mit denen ich arbeite",
+    "subtitle": "Technologien und Werkzeuge in meinem professionellen Stack",
     "yearsExp": "Jahre",
     "yearExp": "Jahr",
-    "expertiseLevel": "Erfahrungsstufe",
+    "expertiseLevel": "Kompetenzlevel",
     "beginner": "Anfänger",
     "intermediate": "Fortgeschritten",
     "advanced": "Erfahren",
@@ -45,7 +45,7 @@
   },
   "experience": {
     "title": "Erfahrung",
-    "subtitle": "Mein beruflicher Werdegang",
+    "subtitle": "Stationen meiner beruflichen Laufbahn",
     "present": "Heute",
     "years": "Jahre",
     "year": "Jahr",
@@ -54,22 +54,22 @@
       "muc": "München, Deutschland"
     },
     "achievements": {
-      "api-design": "API- und Microservice-Design",
-      "technical-projectmanagement": "Technisches Projektmanagement",
-      "customer-support": "Kundensupport",
-      "se": "Software Engineering",
-      "se-system-architecture": "Software- und Systemarchitektur",
-      "fullstack-dev": "Fullstack-Softwareentwicklung",
-      "win-linux-dev": "Windows-/Linux-Softwareentwicklung",
-      "db-dev": "Datenbanentwicklung",
-      "gui-dev": "GUI-Entwicklung",
-      "it-management": "IT-Management",
-      "effort-estimate": "Aufwandsschätzung"
+      "api-design": "Konzeption und Entwicklung von RESTful APIs und Microservices",
+      "technical-projectmanagement": "Technische Leitung und agiles Projektmanagement",
+      "customer-support": "Technischer Kundensupport und Stakeholder-Management",
+      "se": "Anwendung von Software Engineering Best Practices",
+      "se-system-architecture": "Entwurf und Implementierung von Systemarchitekturen",
+      "fullstack-dev": "End-to-End Anwendungsentwicklung (Frontend & Backend)",
+      "win-linux-dev": "Plattformübergreifende Softwareentwicklung (Windows/Linux)",
+      "db-dev": "Datenbankdesign und Performance-Optimierung",
+      "gui-dev": "Responsive UI/UX-Design und Frontend-Implementierung",
+      "it-management": "IT-Prozessoptimierung und Ressourcenmanagement",
+      "effort-estimate": "Präzise Aufwandsschätzung und Projektplanung"
     }
   },
   "projects": {
     "title": "Projekte",
-    "subtitle": "Einige Projekte, an denen ich gearbeitet habe",
+    "subtitle": "Ausgewählte Projektbeispiele aus meinem Portfolio",
     "viewProject": "Projekt ansehen",
     "viewCode": "Code ansehen",
     "featured": "Ausgewählte Projekte",
@@ -77,15 +77,15 @@
     "techStack": "Tech Stack",
     "iga": {
       "title": "Identity Governance & Administration (IGA)",
-      "description": "Entwicklung eines Berechtigungsmanagementsystems mit integrierten API-Schnittstellen und spezialisierten Adaptern."
+      "description": "Konzeption und Umsetzung eines fortschrittlichen Berechtigungsmanagementsystems mit RESTful API-Schnittstellen und spezialisierten Adaptern für verschiedene Identitätsquellen."
     },
     "dpa-import": {
       "title": "Nachrichtenimport für dpa",
-      "description": "Entwicklung eines Systems zur Verarbeitung von dpa-Nachrichtendaten mit komplexer businesslogikgesteuerter Verarbeitung."
+      "description": "Implementierung eines hochperformanten Systems zur Verarbeitung und Anreicherung von dpa-Nachrichtendaten mit ereignisgesteuerter Architektur und komplexer Geschäftslogik."
     },
     "news-processing": {
       "title": "Nachrichtendatenverarbeitung",
-      "description": "System für Import, Export und Verarbeitung von Nachrichtendaten mit komplexer Businesslogik."
+      "description": "Entwicklung einer skalierbaren Pipeline für Import, Transformation und Distribution von Nachrichtendaten mit robuster Fehlerbehandlung und flexiblen Integrationsschnittstellen."
     },
     "autocad-modeling": {
       "title": "AutoCAD-Modellierung im CABD-Workflow",
@@ -97,11 +97,11 @@
     },
     "automated-testing": {
       "title": "Automated GUI Testing",
-      "description": "Entwicklung einer automatisierten Test-Suite für GUI-Anwendungen mit Integration in CI/CD-Pipelines."
+      "description": "Entwicklung einer umfassenden automatisierten Test-Suite für GUI-Anwendungen mit nahtloser Integration in CI/CD-Pipelines und detaillierter Testberichterstattung."
     },
     "cicd-web": {
       "title": "CI/CD für Web Komponenten",
-      "description": "Entwicklung einer CI/CD-Pipeline für Web-Komponenten mit automatisierten Tests und Build-Prozessen."
+      "description": "Implementierung einer effizienten CI/CD-Pipeline für Web-Komponenten mit automatisierten Tests, statischer Codeanalyse und optimierten Build-Prozessen."
     },
     "bakkal-usta": {
       "title": "Plattform-App \"Bakkal-Usta\"",
@@ -110,7 +110,7 @@
   },
   "contact": {
     "title": "Kontakt",
-    "subtitle": "Lass uns in Kontakt treten",
+    "subtitle": "Lassen Sie uns über professionelle Zusammenarbeit sprechen",
     "name": "Name",
     "email": "E-Mail",
     "message": "Nachricht",

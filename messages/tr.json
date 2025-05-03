@@ -23,21 +23,21 @@
   "home": {
     "greeting": "Merhaba",
     "im": "Ben",
-    "role": "Kıdemli Yazılım Mühendisi",
+    "role": "Kıdemli Fullstack Mühendisi",
     "contact": "İletişime Geç",
     "viewProjects": "Projeleri Gör",
     "downloadCV": "CV İndir",
     "yearsOfExperience": "Yıllık Deneyim",
     "completedProjects": "Tamamlanan Projeler",
     "technologiesMastered": "Teknolojiler",
-    "bio": "Modern ve yenilikçi yazılım çözümleri geliştirme konusunda on yıllık deneyime sahip Yazılım Mühendisi. Java, C++, TypeScript/JavaScript alanlarında sağlam bilgi ve AWS, Firebase gibi bulut platformlarında ve Spring, Expo, Next.js gibi framework'lerde deneyim sahibi."
+    "bio": "Ölçeklenebilir yazılım çözümleri tasarlama ve uygulama konusunda on yılı aşkın deneyime sahip tecrübeli Yazılım Mühendisi. Java, C++, TypeScript/JavaScript konusunda kapsamlı bilgi ve bulut teknolojileri (AWS, Firebase) ve modern framework'ler (Spring Boot, React, Next.js) ile önemli deneyim."
   },
   "skills": {
     "title": "Yetenekler",
-    "subtitle": "Çalıştığım teknolojiler ve araçlar",
+    "subtitle": "Profesyonel stack'imde kullandığım teknolojiler ve araçlar",
     "yearsExp": "yıl",
     "yearExp": "yıl",
-    "expertiseLevel": "Uzmanlık Seviyesi",
+    "expertiseLevel": "Yeterlilik Seviyesi",
     "beginner": "Başlangıç",
     "intermediate": "Orta",
     "advanced": "İleri",
@@ -45,7 +45,7 @@
   },
   "experience": {
     "title": "Deneyim",
-    "subtitle": "Profesyonel yolculuğum",
+    "subtitle": "Profesyonel kariyer yolculuğum",
     "present": "Günümüz",
     "years": "yıl",
     "year": "yıl",
@@ -54,22 +54,22 @@
       "muc": "Münih, Almanya"
     },
     "achievements": {
-      "api-design": "API ve Mikroservis Tasarımı",
-      "technical-projectmanagement": "Teknik Proje Yönetimi",
-      "customer-support": "Müşteri Desteği",
-      "se": "Yazılım Mühendisliği",
-      "se-system-architecture": "Yazılım ve Sistem Mimarisi",
-      "fullstack-dev": "Full Stack Yazılım Geliştirme",
-      "win-linux-dev": "Windows/Linux Yazılım Geliştirme",
-      "db-dev": "Veritabanı Geliştirme",
-      "gui-dev": "Grafiksel Kullanıcı Arayüzü Geliştirme",
-      "it-management": "IT Yönetimi",
-      "effort-estimate": "Çaba Tahmini"
+      "api-design": "RESTful API'ler ve mikroservislerin tasarımı ve geliştirilmesi",
+      "technical-projectmanagement": "Teknik liderlik ve çevik proje yönetimi",
+      "customer-support": "Teknik müşteri desteği ve paydaş yönetimi",
+      "se": "Yazılım mühendisliği en iyi uygulamalarının uygulanması",
+      "se-system-architecture": "Sistem mimarilerinin tasarımı ve uygulanması",
+      "fullstack-dev": "Uçtan uca uygulama geliştirme (frontend & backend)",
+      "win-linux-dev": "Çapraz platform yazılım geliştirme (Windows/Linux)",
+      "db-dev": "Veritabanı tasarımı ve performans optimizasyonu",
+      "gui-dev": "Duyarlı UI/UX tasarımı ve frontend implementasyonu",
+      "it-management": "BT süreç optimizasyonu ve kaynak yönetimi",
+      "effort-estimate": "Hassas çaba tahmini ve proje planlaması"
     }
   },
   "projects": {
     "title": "Projeler",
-    "subtitle": "Üzerinde çalıştığım bazı projeler",
+    "subtitle": "Portfolyomdan seçilmiş proje örnekleri",
     "viewProject": "Projeyi Gör",
     "viewCode": "Kodu Gör",
     "featured": "Öne Çıkan Projeler",
@@ -77,15 +77,15 @@
     "techStack": "Teknoloji Yığını",
     "iga": {
       "title": "Kimlik Yönetimi ve Yönetişimi (IGA)",
-      "description": "Entegre API arayüzleri ve özel adaptörlerle bir yetkilendirme yönetim sistemi geliştirme."
+      "description": "Çeşitli kimlik kaynakları için RESTful API arayüzleri ve özel adaptörlerle gelişmiş bir yetkilendirme yönetim sisteminin tasarımı ve uygulanması."
     },
     "dpa-import": {
       "title": "dpa için Haber İçe Aktarma",
-      "description": "Karmaşık iş mantığı tarafından yönetilen dpa haber verilerini işlemek için bir sistem geliştirme."
+      "description": "Olay odaklı mimari ve karmaşık iş mantığı ile dpa haber verilerini işlemek ve zenginleştirmek için yüksek performanslı bir sistemin uygulanması."
     },
     "news-processing": {
       "title": "Haber Veri İşleme",
-      "description": "Karmaşık iş mantığı ile haber verilerinin içe aktarılması, dışa aktarılması ve işlenmesi için sistem."
+      "description": "Güçlü hata işleme ve esnek entegrasyon arayüzleri ile haber verilerinin içe aktarılması, dönüştürülmesi ve dağıtılması için ölçeklenebilir bir pipeline geliştirme."
     },
     "autocad-modeling": {
       "title": "CABD İş Akışında AutoCAD Modelleme",
@@ -97,11 +97,11 @@
     },
     "automated-testing": {
       "title": "Otomatik GUI Testi",
-      "description": "CI/CD pipeline'larına entegre edilmiş GUI uygulamaları için otomatik test paketi geliştirme."
+      "description": "CI/CD pipeline'larına sorunsuz entegrasyon ve ayrıntılı test raporlama ile GUI uygulamaları için kapsamlı bir otomatik test paketinin geliştirilmesi."
     },
     "cicd-web": {
       "title": "Web Bileşenleri için CI/CD",
-      "description": "Otomatik testler ve derleme süreçleri ile web bileşenleri için bir CI/CD pipeline'ı geliştirme."
+      "description": "Otomatik testler, statik kod analizi ve optimize edilmiş derleme süreçleri ile web bileşenleri için verimli bir CI/CD pipeline'ı uygulaması."
     },
     "bakkal-usta": {
       "title": "Platform Uygulaması \"Bakkal-Usta\"",
@@ -110,7 +110,7 @@
   },
   "contact": {
     "title": "İletişim",
-    "subtitle": "Benimle iletişime geç",
+    "subtitle": "Profesyonel işbirliği hakkında konuşalım",
     "name": "İsim",
     "email": "E-posta",
     "message": "Mesaj",
