@@ -4,7 +4,6 @@ import {useState} from 'react';
 import {Link,} from '@/i18n/navigation';
 import {useTranslations} from 'next-intl';
 import {useTheme} from 'next-themes';
-import {scrollToElement} from '@/lib/utils';
 import LocaleSwitcher from "@/components/LocaleSwitcher";
 
 export function Navbar() {
@@ -19,6 +18,20 @@ export function Navbar() {
         {name: t('navigation.projects'), href: `#projects`},
         {name: t('navigation.contact'), href: `#contact`}
     ];
+
+    const scrollToElement = (id: string) => {
+        const element = document.getElementById(id);
+        if (element) {
+            const navbarHeight = 64; // 4rem (h-16)
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - navbarHeight;
+
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: "smooth"
+            });
+        }
+    }
 
     const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
         const isHashLink = href.includes('#');

@@ -13,7 +13,7 @@ export const experience: Experience[] = [
         company: 'Mediengruppe Münchner Merkur tz',
         role: 'Senior Software Engineer',
         location: 'München, Deutschland',
-        startDate: '2023-01',
+        startDate: new Date(2022, 9), // '2022-10'
         achievements: [
             'Fullstack-Softwareentwicklung',
             'Software- und Systemarchitektur',
@@ -26,8 +26,8 @@ export const experience: Experience[] = [
         company: 'Mediengruppe Münchner Merkur tz',
         role: 'Software Engineer',
         location: 'München, Deutschland',
-        startDate: '2020-01',
-        endDate: '2022-12',
+        startDate: new Date(2020, 8), // '2020-09',
+        endDate: new Date(2022, 9), // '2022-10',
         achievements: [
             'Fullstack-Entwicklung',
             'Software Engineering',
@@ -39,8 +39,8 @@ export const experience: Experience[] = [
         company: 'SOFiSTiK AG',
         role: 'Software Engineer',
         location: 'München, Deutschland',
-        startDate: '2018-01',
-        endDate: '2019-12',
+        startDate: new Date(2018, 6), // '2018-07',
+        endDate: new Date(2020, 8), // '2020-09',
         achievements: [
             'Windows-/Linux-Entwicklung',
             'Technisches Projektmanagement',
@@ -52,8 +52,8 @@ export const experience: Experience[] = [
         company: 'SOFiSTiK AG',
         role: 'Junior Software Engineer',
         location: 'München, Deutschland',
-        startDate: '2016-01',
-        endDate: '2017-12',
+        startDate: new Date(2016, 8), // '2016-09',
+        endDate: new Date(2018, 6), // '2018-07',
         achievements: [
             'Datenbank- und GUI-Entwicklung',
             'Grundlagen Software Engineering',
