@@ -44,27 +44,27 @@
     "expert": "Experte"
   },
   "experience": {
-    "title": "Erfahrung",
-    "subtitle": "Stationen meiner beruflichen Laufbahn",
+    "title": "Beruflicher Werdegang",
+    "subtitle": "Meine Karrierestationen und Verantwortungsbereiche",
     "present": "Heute",
     "years": "Jahre",
     "year": "Jahr",
-    "technologies": "Verwendete Technologien",
+    "technologies": "Technologie-Stack",
     "locations": {
       "muc": "München, Deutschland"
     },
     "achievements": {
-      "api-design": "Konzeption und Entwicklung von RESTful APIs und Microservices",
-      "technical-projectmanagement": "Technische Leitung und agiles Projektmanagement",
-      "customer-support": "Technischer Kundensupport und Stakeholder-Management",
-      "se": "Anwendung von Software Engineering Best Practices",
-      "se-system-architecture": "Entwurf und Implementierung von Systemarchitekturen",
-      "fullstack-dev": "End-to-End Anwendungsentwicklung (Frontend & Backend)",
-      "win-linux-dev": "Plattformübergreifende Softwareentwicklung (Windows/Linux)",
-      "db-dev": "Datenbankdesign und Performance-Optimierung",
-      "gui-dev": "Responsive UI/UX-Design und Frontend-Implementierung",
-      "it-management": "IT-Prozessoptimierung und Ressourcenmanagement",
-      "effort-estimate": "Präzise Aufwandsschätzung und Projektplanung"
+      "api-design": "Entwicklung und Dokumentation von RESTful APIs für Microservice-Architekturen",
+      "technical-projectmanagement": "Leitung technischer Teams und Koordination abteilungsübergreifender Projekte",
+      "customer-support": "Betreuung von Schlüsselkunden und technische Problemlösung im Enterprise-Umfeld",
+      "se": "Implementierung moderner Software-Engineering-Praktiken und Qualitätssicherung",
+      "se-system-architecture": "Konzeption skalierbarer Systemarchitekturen und Infrastrukturplanung",
+      "fullstack-dev": "Entwicklung von Backend-Systemen und reaktiven Frontend-Anwendungen",
+      "win-linux-dev": "Entwicklung plattformübergreifender Anwendungen für Windows- und Linux-Umgebungen",
+      "db-dev": "Datenmodellierung und Optimierung relationaler und NoSQL-Datenbanken",
+      "gui-dev": "Entwicklung intuitiver Benutzeroberflächen mit modernen UI-Frameworks",
+      "it-management": "Optimierung von IT-Prozessen und Einführung effizienter Workflows",
+      "effort-estimate": "Projektkalkulationen und Ressourcenplanung für komplexe Entwicklungsvorhaben"
     }
   },
   "projects": {

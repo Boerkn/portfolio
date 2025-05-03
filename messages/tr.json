@@ -44,27 +44,27 @@
     "expert": "Uzman"
   },
   "experience": {
-    "title": "Deneyim",
-    "subtitle": "Profesyonel kariyer yolculuğum",
+    "title": "Profesyonel Deneyim",
+    "subtitle": "Kariyer dönüm noktaları ve sorumluluk alanları",
     "present": "Günümüz",
     "years": "yıl",
     "year": "yıl",
-    "technologies": "Kullanılan teknolojiler",
+    "technologies": "Teknoloji Yığını",
     "locations": {
       "muc": "Münih, Almanya"
     },
     "achievements": {
-      "api-design": "RESTful API'ler ve mikroservislerin tasarımı ve geliştirilmesi",
-      "technical-projectmanagement": "Teknik liderlik ve çevik proje yönetimi",
-      "customer-support": "Teknik müşteri desteği ve paydaş yönetimi",
-      "se": "Yazılım mühendisliği en iyi uygulamalarının uygulanması",
-      "se-system-architecture": "Sistem mimarilerinin tasarımı ve uygulanması",
-      "fullstack-dev": "Uçtan uca uygulama geliştirme (frontend & backend)",
-      "win-linux-dev": "Çapraz platform yazılım geliştirme (Windows/Linux)",
-      "db-dev": "Veritabanı tasarımı ve performans optimizasyonu",
-      "gui-dev": "Duyarlı UI/UX tasarımı ve frontend implementasyonu",
-      "it-management": "BT süreç optimizasyonu ve kaynak yönetimi",
-      "effort-estimate": "Hassas çaba tahmini ve proje planlaması"
+      "api-design": "Mikroservis mimarileri için RESTful API'lerin geliştirilmesi ve dokümantasyonu",
+      "technical-projectmanagement": "Teknik ekiplerin yönetimi ve departmanlar arası projelerin koordinasyonu",
+      "customer-support": "Anahtar müşteri desteği ve kurumsal ortamlarda teknik sorun çözümü",
+      "se": "Modern yazılım mühendisliği uygulamalarının ve kalite güvencesinin uygulanması",
+      "se-system-architecture": "Ölçeklenebilir sistem mimarilerinin tasarımı ve altyapı planlaması",
+      "fullstack-dev": "Backend sistemleri ve reaktif frontend uygulamalarının geliştirilmesi",
+      "win-linux-dev": "Windows ve Linux ortamları için çapraz platform uygulamalarının geliştirilmesi",
+      "db-dev": "İlişkisel ve NoSQL veritabanlarının veri modellemesi ve optimizasyonu",
+      "gui-dev": "Modern UI framework'leri ile sezgisel kullanıcı arayüzlerinin geliştirilmesi",
+      "it-management": "BT süreçlerinin optimizasyonu ve verimli iş akışlarının tanıtımı",
+      "effort-estimate": "Karmaşık geliştirme projeleri için proje hesaplamaları ve kaynak planlaması"
     }
   },
   "projects": {

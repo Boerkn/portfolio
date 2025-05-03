@@ -44,27 +44,27 @@
     "expert": "Expert"
   },
   "experience": {
-    "title": "Experience",
-    "subtitle": "My professional career trajectory",
+    "title": "Professional Experience",
+    "subtitle": "Career milestones and areas of responsibility",
     "present": "Present",
     "years": "years",
     "year": "year",
-    "technologies": "Technologies used",
+    "technologies": "Technology Stack",
     "locations": {
       "muc": "Munich, Germany"
     },
     "achievements": {
-      "api-design": "Design and development of RESTful APIs and microservices",
-      "technical-projectmanagement": "Technical leadership and agile project management",
-      "customer-support": "Technical customer support and stakeholder management",
-      "se": "Application of software engineering best practices",
-      "se-system-architecture": "Design and implementation of system architectures",
-      "fullstack-dev": "End-to-end application development (frontend & backend)",
-      "win-linux-dev": "Cross-platform software development (Windows/Linux)",
-      "db-dev": "Database design and performance optimization",
-      "gui-dev": "Responsive UI/UX design and frontend implementation",
-      "it-management": "IT process optimization and resource management",
-      "effort-estimate": "Precise effort estimation and project planning"
+      "api-design": "Development and documentation of RESTful APIs for microservice architectures",
+      "technical-projectmanagement": "Leading technical teams and coordinating cross-departmental projects",
+      "customer-support": "Key account support and technical problem solving in enterprise environments",
+      "se": "Implementation of modern software engineering practices and quality assurance",
+      "se-system-architecture": "Designing scalable system architectures and infrastructure planning",
+      "fullstack-dev": "Development of backend systems and reactive frontend applications",
+      "win-linux-dev": "Development of cross-platform applications for Windows and Linux environments",
+      "db-dev": "Data modeling and optimization of relational and NoSQL databases",
+      "gui-dev": "Development of intuitive user interfaces with modern UI frameworks",
+      "it-management": "Optimization of IT processes and introduction of efficient workflows",
+      "effort-estimate": "Project calculations and resource planning for complex development projects"
     }
   },
   "projects": {
