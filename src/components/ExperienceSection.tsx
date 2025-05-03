@@ -61,12 +61,12 @@ export function ExperienceSection() {
                                     </div>
 
                                     <div className="text-sm text-text/60 mb-4">
-                                        📍 {job.location}
+                                        📍 {t(`experience.${job.location}`)}
                                     </div>
 
                                     <ul className="list-disc list-inside space-y-2 mb-4 text-text/80">
                                         {job.achievements.map((achievement, i) => (
-                                            <li key={i} className="pl-2">{achievement}</li>
+                                            <li key={i} className="pl-2">{t(`experience.${achievement}`)}</li>
                                         ))}
                                     </ul>
 

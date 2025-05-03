@@ -24,7 +24,7 @@ export function HeroSection() {
                             <span className="block mt-2 text-accent">{profile.role}</span>
                         </h1>
                         <p className="text-lg md:text-xl text-text/80 mb-8 max-w-2xl">
-                            {profile.bio}
+                            {t(`home.${profile.bio}`)}
                         </p>
                         <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
                             <a

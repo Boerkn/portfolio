@@ -47,10 +47,10 @@ export function ProjectsSection() {
                                     </div>
                                     <div className="p-6">
                                         <h3 className="text-xl font-semibold mb-2">
-                                            {project.title}
+                                            {t(`projects.${project.title}`)}
                                         </h3>
                                         <p className="text-text/60 mb-4">
-                                            {project.description}
+                                            {t(`projects.${project.description}`)}
                                         </p>
                                         <div className="flex flex-wrap gap-2 mb-4">
                                             {project.tags.map(tag => (

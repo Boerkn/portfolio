@@ -29,7 +29,8 @@
     "downloadCV": "Lebenslauf herunterladen",
     "yearsOfExperience": "Jahre Erfahrung",
     "completedProjects": "Abgeschlossene Projekte",
-    "technologiesMastered": "Technologien"
+    "technologiesMastered": "Technologien",
+    "bio": "Software Engineer mit zehn Jahren Erfahrung in der Entwicklung moderner und innovativer Softwarelösungen. Fundierte Kenntnisse in Java, C++, TypeScript/JavaScript, sowie Erfahrung mit Cloud-Plattformen (AWS, Firebase) und Frameworks (Spring, Expo, Next.js)."
   },
   "skills": {
     "title": "Fähigkeiten",
@@ -48,7 +49,23 @@
     "present": "Heute",
     "years": "Jahre",
     "year": "Jahr",
-    "technologies": "Verwendete Technologien"
+    "technologies": "Verwendete Technologien",
+    "locations": {
+      "muc": "München, Deutschland"
+    },
+    "achievements": {
+      "api-design": "API- und Microservice-Design",
+      "technical-projectmanagement": "Technisches Projektmanagement",
+      "customer-support": "Kundensupport",
+      "se": "Software Engineering",
+      "se-system-architecture": "Software- und Systemarchitektur",
+      "fullstack-dev": "Fullstack-Softwareentwicklung",
+      "win-linux-dev": "Windows-/Linux-Softwareentwicklung",
+      "db-dev": "Datenbanentwicklung",
+      "gui-dev": "GUI-Entwicklung",
+      "it-management": "IT-Management",
+      "effort-estimate": "Aufwandsschätzung"
+    }
   },
   "projects": {
     "title": "Projekte",
@@ -57,7 +74,39 @@
     "viewCode": "Code ansehen",
     "featured": "Ausgewählte Projekte",
     "all": "Alle Projekte",
-    "techStack": "Tech Stack"
+    "techStack": "Tech Stack",
+    "iga": {
+      "title": "Identity Governance & Administration (IGA)",
+      "description": "Entwicklung eines Berechtigungsmanagementsystems mit integrierten API-Schnittstellen und spezialisierten Adaptern."
+    },
+    "dpa-import": {
+      "title": "Nachrichtenimport für dpa",
+      "description": "Entwicklung eines Systems zur Verarbeitung von dpa-Nachrichtendaten mit komplexer businesslogikgesteuerter Verarbeitung."
+    },
+    "news-processing": {
+      "title": "Nachrichtendatenverarbeitung",
+      "description": "System für Import, Export und Verarbeitung von Nachrichtendaten mit komplexer Businesslogik."
+    },
+    "autocad-modeling": {
+      "title": "AutoCAD-Modellierung im CABD-Workflow",
+      "description": "Entwicklung einer UI für die CAD-Modellierung im CABD-Workflow mit fortschrittlichen 3D-Visualisierungsfunktionen."
+    },
+    "distributor": {
+      "title": "Verteilerlinie im CABD-Workflow",
+      "description": "Entwicklung und Implementierung eines Moduls zur Erstellung von Pfadgeometrien und Verteilerlinien im Computer Aided Bridge Design (CABD). Das Projekt umfasste komplexe Geometrieberechnungen, parametrisierte Pfaderstellung und nahtlose Integration in die SOFiSTiK-Umgebung für Brücken- und Tragwerksplanung."
+    },
+    "automated-testing": {
+      "title": "Automated GUI Testing",
+      "description": "Entwicklung einer automatisierten Test-Suite für GUI-Anwendungen mit Integration in CI/CD-Pipelines."
+    },
+    "cicd-web": {
+      "title": "CI/CD für Web Komponenten",
+      "description": "Entwicklung einer CI/CD-Pipeline für Web-Komponenten mit automatisierten Tests und Build-Prozessen."
+    },
+    "bakkal-usta": {
+      "title": "Plattform-App \"Bakkal-Usta\"",
+      "description": "Entwicklung einer mobilen Plattform-App mit Fokus auf benutzerfreundlichem Design und nahtloser Backend-Integration."
+    }
   },
   "contact": {
     "title": "Kontakt",

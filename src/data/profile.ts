@@ -1,7 +1,7 @@
 export const profile = {
     name: 'Berkan Öztürk',
     role: 'Senior Software Engineer',
-    bio: 'Software Engineer mit zehn Jahren Erfahrung in der Entwicklung moderner und innovativer Softwarelösungen. Fundierte Kenntnisse in Java, C++, TypeScript/JavaScript, sowie Erfahrung mit Cloud-Plattformen (AWS, Firebase) und Frameworks (Spring, Expo, Next.js).',
+    bio: 'bio',
     avatarUrl: '/profile.jpg',
     resumeUrl: '/BerkanOzturk_CV.pdf',
     location: '85221 Dachau, Germany',

@@ -29,7 +29,8 @@
     "downloadCV": "CV İndir",
     "yearsOfExperience": "Yıllık Deneyim",
     "completedProjects": "Tamamlanan Projeler",
-    "technologiesMastered": "Teknolojiler"
+    "technologiesMastered": "Teknolojiler",
+    "bio": "Modern ve yenilikçi yazılım çözümleri geliştirme konusunda on yıllık deneyime sahip Yazılım Mühendisi. Java, C++, TypeScript/JavaScript alanlarında sağlam bilgi ve AWS, Firebase gibi bulut platformlarında ve Spring, Expo, Next.js gibi framework'lerde deneyim sahibi."
   },
   "skills": {
     "title": "Yetenekler",
@@ -48,7 +49,23 @@
     "present": "Günümüz",
     "years": "yıl",
     "year": "yıl",
-    "technologies": "Kullanılan teknolojiler"
+    "technologies": "Kullanılan teknolojiler",
+    "locations": {
+      "muc": "Münih, Almanya"
+    },
+    "achievements": {
+      "api-design": "API ve Mikroservis Tasarımı",
+      "technical-projectmanagement": "Teknik Proje Yönetimi",
+      "customer-support": "Müşteri Desteği",
+      "se": "Yazılım Mühendisliği",
+      "se-system-architecture": "Yazılım ve Sistem Mimarisi",
+      "fullstack-dev": "Full Stack Yazılım Geliştirme",
+      "win-linux-dev": "Windows/Linux Yazılım Geliştirme",
+      "db-dev": "Veritabanı Geliştirme",
+      "gui-dev": "Grafiksel Kullanıcı Arayüzü Geliştirme",
+      "it-management": "IT Yönetimi",
+      "effort-estimate": "Çaba Tahmini"
+    }
   },
   "projects": {
     "title": "Projeler",
@@ -57,7 +74,39 @@
     "viewCode": "Kodu Gör",
     "featured": "Öne Çıkan Projeler",
     "all": "Tüm Projeler",
-    "techStack": "Teknoloji Yığını"
+    "techStack": "Teknoloji Yığını",
+    "iga": {
+      "title": "Kimlik Yönetimi ve Yönetişimi (IGA)",
+      "description": "Entegre API arayüzleri ve özel adaptörlerle bir yetkilendirme yönetim sistemi geliştirme."
+    },
+    "dpa-import": {
+      "title": "dpa için Haber İçe Aktarma",
+      "description": "Karmaşık iş mantığı tarafından yönetilen dpa haber verilerini işlemek için bir sistem geliştirme."
+    },
+    "news-processing": {
+      "title": "Haber Veri İşleme",
+      "description": "Karmaşık iş mantığı ile haber verilerinin içe aktarılması, dışa aktarılması ve işlenmesi için sistem."
+    },
+    "autocad-modeling": {
+      "title": "CABD İş Akışında AutoCAD Modelleme",
+      "description": "Gelişmiş 3D görselleştirme özellikleriyle CABD iş akışında CAD modellemesi için bir kullanıcı arayüzü geliştirme."
+    },
+    "distributor": {
+      "title": "CABD İş Akışında Dağıtım Hattı",
+      "description": "Bilgisayar Destekli Köprü Tasarımında (CABD) yol geometrileri ve dağıtım hatları oluşturmak için bir modülün geliştirilmesi ve uygulanması. Proje, karmaşık geometri hesaplamaları, parametreli yol oluşturma ve köprü ve yapısal tasarım için SOFiSTiK ortamına sorunsuz entegrasyon içerdi."
+    },
+    "automated-testing": {
+      "title": "Otomatik GUI Testi",
+      "description": "CI/CD pipeline'larına entegre edilmiş GUI uygulamaları için otomatik test paketi geliştirme."
+    },
+    "cicd-web": {
+      "title": "Web Bileşenleri için CI/CD",
+      "description": "Otomatik testler ve derleme süreçleri ile web bileşenleri için bir CI/CD pipeline'ı geliştirme."
+    },
+    "bakkal-usta": {
+      "title": "Platform Uygulaması \"Bakkal-Usta\"",
+      "description": "Kullanıcı dostu tasarım ve sorunsuz backend entegrasyonuna odaklanan bir mobil platform uygulaması geliştirme."
+    }
   },
   "contact": {
     "title": "İletişim",

@@ -29,7 +29,8 @@
     "downloadCV": "Download CV",
     "yearsOfExperience": "Years of Experience",
     "completedProjects": "Completed Projects",
-    "technologiesMastered": "Technologies"
+    "technologiesMastered": "Technologies",
+    "bio": "Software Engineer with ten years of experience in developing modern and innovative software solutions. Strong knowledge in Java, C++, TypeScript/JavaScript, as well as experience with cloud platforms (AWS, Firebase) and frameworks (Spring, Expo, Next.js)."
   },
   "skills": {
     "title": "Skills",
@@ -48,7 +49,23 @@
     "present": "Present",
     "years": "years",
     "year": "year",
-    "technologies": "Technologies used"
+    "technologies": "Technologies used",
+    "locations": {
+      "muc": "Munich, Germany"
+    },
+    "achievements": {
+      "api-design": "API and Microservice Design",
+      "technical-projectmanagement": "Technical Project Management",
+      "customer-support": "Customer Support",
+      "se": "Software Engineering",
+      "se-system-architecture": "Software and System Architecture",
+      "fullstack-dev": "Fullstack Development",
+      "win-linux-dev": "Windows/Linux Development",
+      "db-dev": "Database Development",
+      "gui-dev": "GUI Development",
+      "it-management": "IT Management",
+      "effort-estimate": "Effort Estimation"
+    }
   },
   "projects": {
     "title": "Projects",
@@ -57,7 +74,39 @@
     "viewCode": "View Code",
     "featured": "Featured Projects",
     "all": "All Projects",
-    "techStack": "Tech Stack"
+    "techStack": "Tech Stack",
+    "iga": {
+      "title": "Identity Governance & Administration (IGA)",
+      "description": "Development of an authorization management system with integrated API interfaces and specialized adapters."
+    },
+    "dpa-import": {
+      "title": "News Import for dpa",
+      "description": "Development of a system for processing dpa news data with complex business logic-driven processing."
+    },
+    "news-processing": {
+      "title": "News Data Processing",
+      "description": "System for importing, exporting, and processing news data with complex business logic."
+    },
+    "autocad-modeling": {
+      "title": "AutoCAD Modeling in CABD Workflow",
+      "description": "Development of a UI for CAD modeling in the CABD workflow with advanced 3D visualization features."
+    },
+    "distributor": {
+      "title": "Distribution Line in CABD Workflow",
+      "description": "Development and implementation of a module for creating path geometries and distribution lines in Computer Aided Bridge Design (CABD). The project included complex geometry calculations, parameterized path creation, and seamless integration into the SOFiSTiK environment for bridge and structural design."
+    },
+    "automated-testing": {
+      "title": "Automated GUI Testing",
+      "description": "Development of an automated test suite for GUI applications with integration into CI/CD pipelines."
+    },
+    "cicd-web": {
+      "title": "CI/CD for Web Components",
+      "description": "Development of a CI/CD pipeline for web components with automated tests and build processes."
+    },
+    "bakkal-usta": {
+      "title": "Platform App \"Bakkal-Usta\"",
+      "description": "Development of a mobile platform app with a focus on user-friendly design and seamless backend integration."
+    }
   },
   "contact": {
     "title": "Contact",
