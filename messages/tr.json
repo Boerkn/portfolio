@@ -68,44 +68,44 @@
     }
   },
   "projects": {
-    "title": "Projeler",
-    "subtitle": "Portfolyomdan seçilmiş proje örnekleri",
-    "viewProject": "Projeyi Gör",
-    "viewCode": "Kodu Gör",
+    "title": "Portföy Projeleri",
+    "subtitle": "Teknik kariyerimden seçilmiş öne çıkanlar",
+    "viewProject": "Projeyi Görüntüle",
+    "viewCode": "Kodu Görüntüle",
     "featured": "Öne Çıkan Projeler",
     "all": "Tüm Projeler",
     "techStack": "Teknoloji Yığını",
     "iga": {
-      "title": "Kimlik Yönetimi ve Yönetişimi (IGA)",
-      "description": "Çeşitli kimlik kaynakları için RESTful API arayüzleri ve özel adaptörlerle gelişmiş bir yetkilendirme yönetim sisteminin tasarımı ve uygulanması."
+      "title": "Kimlik Yönetimi ve İdare (IGA)",
+      "description": "RBAC modeli ve otomatik iş akışı motoru ile kurumsal kimlik yönetimi platformu. Tek oturum açma ve federe kimlik doğrulama için REST API'leri, OAuth 2.0 ve OIDC entegrasyonu ile ölçeklenebilir bir mikroservis mimarisi uygulaması."
     },
     "dpa-import": {
-      "title": "dpa için Haber İçe Aktarma",
-      "description": "Olay odaklı mimari ve karmaşık iş mantığı ile dpa haber verilerini işlemek ve zenginleştirmek için yüksek performanslı bir sistemin uygulanması."
+      "title": "Gerçek Zamanlı Haber İçe Aktarımı (dpa)",
+      "description": "dpa haber verilerinin gerçek zamanlı içe aktarımı için yüksek performanslı işleme sistemi. Adaptif ölçeklendirme ile eşzamansız mesaj kuyrukları ve yoğun yükler sırasında dayanıklılık için olay kaynağı ve CQRS ilkelerinin uygulanması."
     },
     "news-processing": {
-      "title": "Haber Veri İşleme",
-      "description": "Güçlü hata işleme ve esnek entegrasyon arayüzleri ile haber verilerinin içe aktarılması, dönüştürülmesi ve dağıtılması için ölçeklenebilir bir pipeline geliştirme."
+      "title": "İçerik Yönetimi Pipeline'ı",
+      "description": "Çok kanallı yayın stratejisine sahip medya içeriği için ETL sistemi. Otomatik meta veri çıkarma, taksonomi sınıflandırması ve kanal arası dağıtım için içerik API'si ile veri odaklı bir iş akışı uygulaması."
     },
     "autocad-modeling": {
-      "title": "CABD İş Akışında AutoCAD Modelleme",
-      "description": "Gelişmiş 3D görselleştirme özellikleriyle CABD iş akışında CAD modellemesi için bir kullanıcı arayüzü geliştirme."
+      "title": "Mühendislik için 3D Modelleme",
+      "description": "AutoCAD'in köprü ve altyapı projeleri için alana özel modelleme yazılımı ile entegrasyonu. Karmaşık 3D modeller için performansa odaklanarak DirectX/OpenGL kullanan özel görselleştirme bileşenlerinin geliştirilmesi."
     },
     "distributor": {
-      "title": "CABD İş Akışında Dağıtım Hattı",
-      "description": "Bilgisayar Destekli Köprü Tasarımında (CABD) yol geometrileri ve dağıtım hatları oluşturmak için bir modülün geliştirilmesi ve uygulanması. Proje, karmaşık geometri hesaplamaları, parametreli yol oluşturma ve köprü ve yapısal tasarım için SOFiSTiK ortamına sorunsuz entegrasyon içerdi."
+      "title": "Altyapı Tasarımı için Geometrik Modelleme",
+      "description": "Köprü tasarımı için CAD yazılımında parametrik geometri hesaplamaları için çekirdek modül. C++ kullanarak spline interpolasyonu, çarpışma algılama ve uzamsal optimizasyon için karmaşık algoritmaların uygulanması ve gerçek zamanlı işleme için GPU hızlandırma."
     },
     "automated-testing": {
-      "title": "Otomatik GUI Testi",
-      "description": "CI/CD pipeline'larına sorunsuz entegrasyon ve ayrıntılı test raporlama ile GUI uygulamaları için kapsamlı bir otomatik test paketinin geliştirilmesi."
+      "title": "Görsel Regresyon Test Çerçevesi",
+      "description": "Görsel fark algılama özellikli UI yoğun uygulamalar için test otomasyon çözümü. Otomatik hata sınıflandırması, ayrıntılı test raporları ve çapraz tarayıcı ve çoklu platform testi desteği ile DevOps pipeline'larına entegrasyon."
     },
     "cicd-web": {
-      "title": "Web Bileşenleri için CI/CD",
-      "description": "Otomatik testler, statik kod analizi ve optimize edilmiş derleme süreçleri ile web bileşenleri için verimli bir CI/CD pipeline'ı uygulaması."
+      "title": "Mikro-Frontend'ler için DevOps Pipeline'ı",
+      "description": "Otomatik sürüm oluşturma ve dağıtım ile modüler web bileşenleri için uçtan uca CI/CD sistemi. Sıfır kesinti güncellemeleri için altyapı kodu, sürekli kalite güvencesi ve mavi-yeşil dağıtım stratejilerinin uygulanması."
     },
     "bakkal-usta": {
-      "title": "Platform Uygulaması \"Bakkal-Usta\"",
-      "description": "Kullanıcı dostu tasarım ve sorunsuz backend entegrasyonuna odaklanan bir mobil platform uygulaması geliştirme."
+      "title": "E-Ticaret Platformu \"Bakkal-Usta\"",
+      "description": "Optimize edilmiş çevrimdışı işlevsellik ve reaktif kullanıcı arayüzüne sahip mobil çapraz platform uygulaması. Zorlu ağ koşullarında gelişmiş performans için GraphQL API, gerçek zamanlı senkronizasyon ve yerel önbellek ile ölçeklenebilir bir backend sisteminin uygulanması."
     }
   },
   "contact": {

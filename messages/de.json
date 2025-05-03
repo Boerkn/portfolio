@@ -68,44 +68,44 @@
     }
   },
   "projects": {
-    "title": "Projekte",
-    "subtitle": "Ausgewählte Projektbeispiele aus meinem Portfolio",
+    "title": "Portfolioprojekte",
+    "subtitle": "Ausgewählte Highlights meiner technischen Laufbahn",
     "viewProject": "Projekt ansehen",
     "viewCode": "Code ansehen",
-    "featured": "Ausgewählte Projekte",
+    "featured": "Herausragende Projekte",
     "all": "Alle Projekte",
-    "techStack": "Tech Stack",
+    "techStack": "Technologie-Stack",
     "iga": {
       "title": "Identity Governance & Administration (IGA)",
-      "description": "Konzeption und Umsetzung eines fortschrittlichen Berechtigungsmanagementsystems mit RESTful API-Schnittstellen und spezialisierten Adaptern für verschiedene Identitätsquellen."
+      "description": "Enterprise-Identitätsmanagement-Plattform mit RBAC-Modell und automatisierter Workflow-Engine. Implementierung einer skalierbaren Microservice-Architektur mit REST APIs, OAuth 2.0 und OIDC-Integration für Single Sign-On und föderierte Authentifizierung."
     },
     "dpa-import": {
-      "title": "Nachrichtenimport für dpa",
-      "description": "Implementierung eines hochperformanten Systems zur Verarbeitung und Anreicherung von dpa-Nachrichtendaten mit ereignisgesteuerter Architektur und komplexer Geschäftslogik."
+      "title": "Echtzeit-Nachrichtenimport (dpa)",
+      "description": "Hochperformantes Verarbeitungssystem für den Echtzeit-Import von dpa-Nachrichtendaten. Anwendung von Event-Sourcing und CQRS-Prinzipien für asynchrone Message-Queues und Resilienz bei Spitzenlasten durch adaptive Skalierung."
     },
     "news-processing": {
-      "title": "Nachrichtendatenverarbeitung",
-      "description": "Entwicklung einer skalierbaren Pipeline für Import, Transformation und Distribution von Nachrichtendaten mit robuster Fehlerbehandlung und flexiblen Integrationsschnittstellen."
+      "title": "Content Management Pipeline",
+      "description": "ETL-System für Medieninhalte mit Multi-Channel-Publikationsstrategie. Implementierung eines datengesteuerten Workflows mit automatisierter Metadaten-Extraktion, Taxonomie-Klassifizierung und Content-API für kanalübergreifende Distribution."
     },
     "autocad-modeling": {
-      "title": "AutoCAD-Modellierung im CABD-Workflow",
-      "description": "Entwicklung einer UI für die CAD-Modellierung im CABD-Workflow mit fortschrittlichen 3D-Visualisierungsfunktionen."
+      "title": "3D-Modellierung für Ingenieurwesen",
+      "description": "Integration von AutoCAD mit domänenspezifischer Modelliersoftware für Brücken- und Infrastrukturprojekte. Entwicklung benutzerdefinierter Visualisierungskomponenten unter Verwendung von DirectX/OpenGL mit Fokus auf Performance bei komplexen 3D-Modellen."
     },
     "distributor": {
-      "title": "Verteilerlinie im CABD-Workflow",
-      "description": "Entwicklung und Implementierung eines Moduls zur Erstellung von Pfadgeometrien und Verteilerlinien im Computer Aided Bridge Design (CABD). Das Projekt umfasste komplexe Geometrieberechnungen, parametrisierte Pfaderstellung und nahtlose Integration in die SOFiSTiK-Umgebung für Brücken- und Tragwerksplanung."
+      "title": "Geometrische Modellierung für Infrastrukturdesign",
+      "description": "Kernmodul für parametrische Geometrieberechnungen in CAD-Software für Brückendesign. Implementierung komplexer Algorithmen für Spline-Interpolation, Kollisionserkennung und räumliche Optimierung mit C++ und Nutzung von GPU-Beschleunigung für Echtzeit-Rendering."
     },
     "automated-testing": {
-      "title": "Automated GUI Testing",
-      "description": "Entwicklung einer umfassenden automatisierten Test-Suite für GUI-Anwendungen mit nahtloser Integration in CI/CD-Pipelines und detaillierter Testberichterstattung."
+      "title": "Framework für visuelle Regressionstests",
+      "description": "Testautomatisierungslösung für UI-intensive Anwendungen mit visueller Differenzerkennung. Integration in DevOps-Pipelines mit automatischer Fehlerklassifizierung, detaillierten Testberichten und Unterstützung für Cross-Browser- und Multi-Plattform-Tests."
     },
     "cicd-web": {
-      "title": "CI/CD für Web Komponenten",
-      "description": "Implementierung einer effizienten CI/CD-Pipeline für Web-Komponenten mit automatisierten Tests, statischer Codeanalyse und optimierten Build-Prozessen."
+      "title": "DevOps-Pipeline für Micro-Frontends",
+      "description": "End-to-End CI/CD-System für modulare Web-Komponenten mit automatischer Versionierung und Deployment. Implementierung von Infrastructure-as-Code, kontinuierlicher Qualitätssicherung und Blue-Green-Deployment-Strategien für Zero-Downtime-Updates."
     },
     "bakkal-usta": {
-      "title": "Plattform-App \"Bakkal-Usta\"",
-      "description": "Entwicklung einer mobilen Plattform-App mit Fokus auf benutzerfreundlichem Design und nahtloser Backend-Integration."
+      "title": "E-Commerce-Plattform \"Bakkal-Usta\"",
+      "description": "Mobile Cross-Platform-Anwendung mit optimierter Offline-Funktionalität und reaktivem UI. Implementierung eines skalierbaren Backend-Systems mit GraphQL-API, Echtzeit-Synchronisation und lokalem Caching für verbesserte Performance unter schwierigen Netzwerkbedingungen."
     }
   },
   "contact": {

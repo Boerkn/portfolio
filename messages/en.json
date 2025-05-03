@@ -68,44 +68,44 @@
     }
   },
   "projects": {
-    "title": "Projects",
-    "subtitle": "Selected project examples from my portfolio",
+    "title": "Portfolio Projects",
+    "subtitle": "Selected highlights from my technical career",
     "viewProject": "View Project",
     "viewCode": "View Code",
     "featured": "Featured Projects",
     "all": "All Projects",
-    "techStack": "Tech Stack",
+    "techStack": "Technology Stack",
     "iga": {
       "title": "Identity Governance & Administration (IGA)",
-      "description": "Designed and implemented an advanced authorization management system with RESTful API interfaces and specialized adapters for various identity sources."
+      "description": "Enterprise identity management platform with RBAC model and automated workflow engine. Implementation of a scalable microservice architecture with REST APIs, OAuth 2.0, and OIDC integration for single sign-on and federated authentication."
     },
     "dpa-import": {
-      "title": "News Import for dpa",
-      "description": "Implementation of a high-performance system for processing and enriching dpa news data with event-driven architecture and complex business logic."
+      "title": "Real-time News Import (dpa)",
+      "description": "High-performance processing system for real-time import of dpa news data. Application of event sourcing and CQRS principles for asynchronous message queues and resilience during peak loads through adaptive scaling."
     },
     "news-processing": {
-      "title": "News Data Processing",
-      "description": "Development of a scalable pipeline for importing, transforming, and distributing news data with robust error handling and flexible integration interfaces."
+      "title": "Content Management Pipeline",
+      "description": "ETL system for media content with multi-channel publication strategy. Implementation of a data-driven workflow with automated metadata extraction, taxonomy classification, and content API for cross-channel distribution."
     },
     "autocad-modeling": {
-      "title": "AutoCAD Modeling in CABD Workflow",
-      "description": "Development of a UI for CAD modeling in the CABD workflow with advanced 3D visualization features."
+      "title": "3D Modeling for Engineering",
+      "description": "Integration of AutoCAD with domain-specific modeling software for bridge and infrastructure projects. Development of custom visualization components using DirectX/OpenGL with a focus on performance for complex 3D models."
     },
     "distributor": {
-      "title": "Distribution Line in CABD Workflow",
-      "description": "Development and implementation of a module for creating path geometries and distribution lines in Computer Aided Bridge Design (CABD). The project included complex geometry calculations, parameterized path creation, and seamless integration into the SOFiSTiK environment for bridge and structural design."
+      "title": "Geometric Modeling for Infrastructure Design",
+      "description": "Core module for parametric geometry calculations in CAD software for bridge design. Implementation of complex algorithms for spline interpolation, collision detection, and spatial optimization using C++ and GPU acceleration for real-time rendering."
     },
     "automated-testing": {
-      "title": "Automated GUI Testing",
-      "description": "Development of a comprehensive automated test suite for GUI applications with seamless integration into CI/CD pipelines and detailed test reporting."
+      "title": "Visual Regression Testing Framework",
+      "description": "Test automation solution for UI-intensive applications with visual difference detection. Integration into DevOps pipelines with automatic error classification, detailed test reports, and support for cross-browser and multi-platform testing."
     },
     "cicd-web": {
-      "title": "CI/CD for Web Components",
-      "description": "Implementation of an efficient CI/CD pipeline for web components with automated tests, static code analysis, and optimized build processes."
+      "title": "DevOps Pipeline for Micro-Frontends",
+      "description": "End-to-end CI/CD system for modular web components with automatic versioning and deployment. Implementation of infrastructure as code, continuous quality assurance, and blue-green deployment strategies for zero-downtime updates."
     },
     "bakkal-usta": {
-      "title": "Platform App \"Bakkal-Usta\"",
-      "description": "Development of a mobile platform app with a focus on user-friendly design and seamless backend integration."
+      "title": "E-Commerce Platform \"Bakkal-Usta\"",
+      "description": "Mobile cross-platform application with optimized offline functionality and reactive UI. Implementation of a scalable backend system with GraphQL API, real-time synchronization, and local caching for improved performance under challenging network conditions."
     }
   },
   "contact": {
