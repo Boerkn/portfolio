@@ -28,10 +28,6 @@ export function ExperienceSection() {
 
                 <div className="max-w-4xl mx-auto">
                     {experience.map((job, index) => {
-                        const dateDisplaySettings = {
-                            year: 'numeric',
-                            month: 'long',
-                        };
                         return (
                             <motion.div
                                 key={`${job.company}-${job.startDate}`}
@@ -54,8 +50,14 @@ export function ExperienceSection() {
                                         </h3>
                                         <div className="text-sm text-text/60">
                                             {job.endDate ?
-                                                formatter.dateTimeRange(job.startDate, job.endDate, dateDisplaySettings) :
-                                                formatter.dateTime(job.startDate, dateDisplaySettings) + " - " + t('experience.present')
+                                                formatter.dateTimeRange(job.startDate, job.endDate, {
+                                                    year: 'numeric',
+                                                    month: 'long',
+                                                }) :
+                                                formatter.dateTime(job.startDate, {
+                                                    year: 'numeric',
+                                                    month: 'long',
+                                                }) + " - " + t('experience.present')
                                             }
                                         </div>
                                     </div>

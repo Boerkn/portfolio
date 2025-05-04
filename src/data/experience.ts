@@ -2,8 +2,8 @@ interface Experience {
     company: string;
     role: string;
     location: string;
-    startDate: string;
-    endDate?: string;
+    startDate: Date;
+    endDate?: Date;
     achievements: string[];
     technologies: string[];
 }
